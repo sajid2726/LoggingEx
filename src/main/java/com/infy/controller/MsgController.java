@@ -22,7 +22,8 @@ public class MsgController {
 			logger.error("Error occurred " + e.getMessage());
 		}
 		
-		logger.debug("Welome method ended");
+		
+		logger.error("Error added");
 		return msg;
 		
 	}
